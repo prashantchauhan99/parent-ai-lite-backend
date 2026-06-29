@@ -10,6 +10,8 @@ class Homework extends Model
 {
     use HasFactory;
 
+    protected $table = 'homeworks';
+
     protected $fillable = [
         'student_id',
         'subject',
